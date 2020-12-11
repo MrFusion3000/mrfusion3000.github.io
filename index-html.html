@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Exercise 4 - HTML(A page title, defined in the head element)</title>
+</head>
+
+<body>
+    <header>
+        <h1>A header element containing a heading (h1) with the page name. It
+            should also have a nav element with an unordered list of at least 3
+            links</h1>
+        <nav>
+            <ul>
+                <li><span style="font-weight:bolder">HTML</span> |</li>
+                <li><a href="index-css.html">CSS</a> |</li>
+                <li><a href="index-bootstrap.html">BOOTSTRAP</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <header>
+            <h2>A container element for the main content of the page, containing a
+                heading (h2)</h2>
+        </header>
+        <p>a paragraph of text and two article elements. Each
+            should have filler text - at least 2 paragraphs each. </p>
+        <p>One should have an image (use lorempixel.com)</p>
+        <article>
+            <h3>(h3) Article 1 - Latest in web development</h3>
+            <p>There have never been a more exciting time in web dev than now.</p>
+            <p>Just watch these advanced HTML tags.</p>
+        </article>
+
+        <article>
+            <h3>(h3)Article 2 - Lorem Ipsum</h3>
+            <p>Where we're going, we don't need roads....</p>
+            <p>Just to be clear, this is a filler text.</p>
+            <img src="assets/cyberpunk2077.jpg" alt="Lorem Ipsum" width="320" height="240">
+        </article>
+    </section>
+    <aside>
+        <h2>An aside element, containing a heading (h2) and an unordered list of
+            nations, each list item containing an ordered list of the nation’s three
+            biggest cities</h2>
+        <ul>
+            <li>
+                Sweden
+                <ol>
+                    <li>Stockholm</li>
+                    <li>Göteborg</li>
+                    <li>Göinge</li>
+                </ol>
+            </li>
+            <li>
+                Norge
+                <ol>
+                    <li>Oslo</li>
+                    <li>Bergen</li>
+                    <li>Halden</li>
+                </ol>
+            </li>
+            <li>
+                Danmark
+                <ol>
+                    <li>Köpenhamn</li>
+                    <li>Helsingör</li>
+                    <li>Malmö</li>
+                </ol>
+            </li>
+        </ul>
+    </aside>
+</body>
+
+</html>

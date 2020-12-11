@@ -1,0 +1,102 @@
+﻿body {
+    margin-top: 0;
+    font-family: Tahoma, Verdana, sans-serif;
+    margin: 0 auto;
+    width: 1024px;
+}
+
+header {
+    width: 97%;
+    height: 30px;
+}
+
+.top-head {
+    background-color: cadetblue;
+    height: 45px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    background-color: brown;
+    float: left;
+    width: 50%;
+    height: 45px;
+    margin: 0;
+}
+
+nav {
+    height: 35px;
+    width: 100%;
+    margin: 1px;
+    padding: 8px;
+}
+
+.in-page-header {
+    float: left;
+    height: auto;
+    padding: 10px;
+}
+
+section {
+    float: left;
+    width: 66%;
+    height: 100%;
+    background-color: gold;
+
+}
+
+article {
+    background-color: azure;
+    color: black;
+    border: 1px solid;
+    padding: 5px;
+}
+
+.set-article-left {
+    float: left;
+    width: 45%;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.set-article-right {
+    float: right;
+    width: 45%;
+    overflow: hidden;
+    margin: 10px;
+}
+
+article img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 80%;
+}
+
+p {
+    float: left;
+    width: 100%;
+}
+
+aside {
+    background-color: beige;
+    float: left;
+    padding-left: 9%;
+    padding-right: 92px;
+    padding-bottom: 268px;
+}
+
+.border {
+    border-color: black;
+    border: 1px;
+}
+
+footer {
+    background-color: blueviolet;
+    text-align: center;
+    width: 1024px;
+    height: 60px;
+    float: left;
+}
